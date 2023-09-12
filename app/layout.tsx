@@ -15,7 +15,9 @@ export default function RootLayout({ children }: { children: any }) {
         <link rel="shortcut icon" href="/favicon.svg" />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider 
+        defaultColorScheme="dark"
+        >{children}</MantineProvider>
       </body>
     </html>
   );
