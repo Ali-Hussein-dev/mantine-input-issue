@@ -1,5 +1,5 @@
 "use client";
-import { ActionIcon, Box, Button, Group, Input, Menu } from "@mantine/core";
+import { ActionIcon,  Group,  Menu, TextInput } from "@mantine/core";
 const LeftSection = () => (
   <Menu>
     <Menu.Target>
@@ -13,7 +13,7 @@ const LeftSection = () => (
 export default function HomePage() {
   return (
     <Group justify="center" pt="xl">
-      <Input
+      <TextInput
         size="xl"
         // leftSectionWidth="auto"
         leftSectionPointerEvents="all"
